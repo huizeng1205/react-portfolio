@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.6ff5a373.css",
+    "main.js": "/react-portfolio/static/js/main.63b653f6.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/course_reg.PNG": "/react-portfolio/static/media/course_reg.bdb5040883aabe809853.PNG",
+    "static/media/banner_bg1.png": "/react-portfolio/static/media/banner_bg1.40ff0c57f6359b25349a.png",
+    "static/media/api.png": "/react-portfolio/static/media/api.fc0518a17ea6f1c48171.png",
+    "static/media/meijer.PNG": "/react-portfolio/static/media/meijer.3f4be0b01f6191d4153c.PNG",
+    "static/media/ts.PNG": "/react-portfolio/static/media/ts.3f4be0b01f6191d4153c.PNG",
+    "static/media/ts.pdf": "/react-portfolio/static/media/ts.1a1b4352498cb0b4b3fa.pdf",
+    "static/media/fem-dev-2.png": "/react-portfolio/static/media/fem-dev-2.5f8531e6320d49ee1881.png",
+    "static/media/meijer.pdf": "/react-portfolio/static/media/meijer.3321da8f352498236cd7.pdf",
+    "static/media/vaccine.PNG": "/react-portfolio/static/media/vaccine.4ef1447963cb6b2acd8f.PNG",
+    "static/media/da_icon.png": "/react-portfolio/static/media/da_icon.ebd7c5e39d6dbc85266e.png",
+    "static/media/flash_sale.png": "/react-portfolio/static/media/flash_sale.24267f99d341605a6edb.png",
+    "static/media/powerbi.png": "/react-portfolio/static/media/powerbi.4a5afb68f9ab67233ee2.png",
+    "static/media/web_dev_icon1.png": "/react-portfolio/static/media/web_dev_icon1.7e9366e21b2d04f76815.png",
+    "static/media/CentraNo2-Bold.ttf": "/react-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/react-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/react-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/name-logo.PNG": "/react-portfolio/static/media/name-logo.5d4adfcceaba141016ce.PNG",
+    "static/media/contact-img.svg": "/react-portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/react-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/react-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/react-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/cv.svg": "/react-portfolio/static/media/cv.b02a35df403ede7014dc13bd64532a55.svg",
+    "static/media/github.svg": "/react-portfolio/static/media/github.5111a02c7d45637c084e58443d7142b6.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/nav-icon1.svg": "/react-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.6ff5a373.css.map": "/react-portfolio/static/css/main.6ff5a373.css.map",
+    "main.63b653f6.js.map": "/react-portfolio/static/js/main.63b653f6.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ff5a373.css",
+    "static/js/main.63b653f6.js"
+  ]
+}
