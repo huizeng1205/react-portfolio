@@ -26,7 +26,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sent!");
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("https://public.herotofu.com/v1/b2447400-a028-11ed-82c7-3d7607318e65", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -60,7 +60,7 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Get In Touch</h2>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} >
                   <Row>
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
@@ -86,6 +86,9 @@ export const Contact = () => {
                     }
                   </Row>
                 </form>
+                <br></br>
+                <br></br>
+                <p>*Email service supported by HeroTofu </p>
               </div>}
             </TrackVisibility>
           </Col>
