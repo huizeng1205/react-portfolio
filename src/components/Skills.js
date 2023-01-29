@@ -5,7 +5,9 @@ import powerbiIcon from "../assets/img/skill/powerbi.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import * as React from 'react';
-
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 export const Skills = () => {
   const responsive = {
@@ -30,18 +32,19 @@ export const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
+        <TrackVisibility>
+              {({ isVisible }) =>
+              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+        <div class="container-fluid">
+
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <div className="skill grid-container">
-                            <div className="grid-item">
+                        <div class="row">
+                            <div class="col-md-6">
                                 <img src={webDevIcon} />
                                 <h5>Web Development</h5>
-                            </div>
-                            
-                            <div className="grid-item">
+                            </div>      
+                            <div class="col-md-6">
                                 <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider"  >
                                 <div className="item">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="Java"  />
@@ -69,15 +72,17 @@ export const Skills = () => {
                                 </div>
 
                                 </Carousel>
-
                             </div>
-
-                            <div className="grid-item">
+                        </div>
+                        <br></br>
+                        <br></br>
+                        <div class="row">
+                            <div class="col-md-6">
                                 <img src={daIcon} />
                                 <h5>Data Science</h5>
                             </div>
 
-                            <div className="grid-item">
+                            <div class="col-md-6">
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider"  >
                                 <div className="item">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="Python"  />
@@ -103,12 +108,14 @@ export const Skills = () => {
                                 </Carousel>
 
                             </div>
+                    
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
 
+
+            </div>
+            </div>}
+            </TrackVisibility>
     </section>
   )
 }
