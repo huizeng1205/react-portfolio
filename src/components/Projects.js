@@ -27,8 +27,8 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "Stable Diffusion Text-to-Image Generation API",
-      description: "Model: Hugging Face Stable Diffusion; Backend: FastAPI",
+      title: "Stable Diffusion Text-to-Image Generation App",
+      description: "Model: Hugging Face Stable Diffusion; Backend: FastAPI; Frontend: Streamlit",
       imgUrl: projImg3,
     },
   ];
