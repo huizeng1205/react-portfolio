@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5e72d489.css",
-    "main.js": "/react-portfolio/static/js/main.ddd5f017.js",
+    "main.js": "/react-portfolio/static/js/main.b2458591.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/course_reg.PNG": "/react-portfolio/static/media/course_reg.bdb5040883aabe809853.PNG",
     "static/media/banner_bg1.png": "/react-portfolio/static/media/banner_bg1.40ff0c57f6359b25349a.png",
-    "static/media/api.png": "/react-portfolio/static/media/api.de06cc48e0f977de5f6a.png",
     "static/media/meijer.PNG": "/react-portfolio/static/media/meijer.3f4be0b01f6191d4153c.PNG",
     "static/media/ts.PNG": "/react-portfolio/static/media/ts.3f4be0b01f6191d4153c.PNG",
+    "static/media/api.png": "/react-portfolio/static/media/api.ec6ad290f0bf1839038a.png",
     "static/media/ts.pdf": "/react-portfolio/static/media/ts.1a1b4352498cb0b4b3fa.pdf",
     "static/media/fem-dev-2.png": "/react-portfolio/static/media/fem-dev-2.5f8531e6320d49ee1881.png",
     "static/media/meijer.pdf": "/react-portfolio/static/media/meijer.3321da8f352498236cd7.pdf",
@@ -29,11 +29,11 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/nav-icon1.svg": "/react-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.5e72d489.css.map": "/react-portfolio/static/css/main.5e72d489.css.map",
-    "main.ddd5f017.js.map": "/react-portfolio/static/js/main.ddd5f017.js.map",
+    "main.b2458591.js.map": "/react-portfolio/static/js/main.b2458591.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e72d489.css",
-    "static/js/main.ddd5f017.js"
+    "static/js/main.b2458591.js"
   ]
 }
